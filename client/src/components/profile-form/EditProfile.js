@@ -40,28 +40,14 @@ const EditProfile = ({
 					? ""
 					: profile.githubusername,
 			bio: loading || !profile.bio ? "" : profile.bio,
-			twitter:
-				loading || !profile.social.twitter
-					? ""
-					: profile.social.twitter,
-			facebook:
-				loading || !profile.social.facebook
-					? ""
-					: profile.social.facebook,
-			linkedin:
-				loading || !profile.social.linkedin
-					? ""
-					: profile.social.linkedin,
-			youtube:
-				loading || !profile.social.youtube
-					? ""
-					: profile.social.youtube,
+			twitter: loading || !profile.social ? "" : profile.social.twitter,
+			facebook: loading || !profile.social ? "" : profile.social.facebook,
+			linkedin: loading || !profile.social ? "" : profile.social.linkedin,
+			youtube: loading || !profile.social ? "" : profile.social.youtube,
 			instagram:
-				loading || !profile.social.instagram
-					? ""
-					: profile.social.instagram,
+				loading || !profile.social ? "" : profile.social.instagram,
 		});
-	}, [loading]);
+	}, [loading, getCurrentProfile]);
 
 	const {
 		company,
