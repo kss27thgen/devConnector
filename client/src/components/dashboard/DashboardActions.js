@@ -12,7 +12,7 @@ const DashboardActions = (props) => {
 			</Link>
 			<Link to="/add-education" className="btn btn-light">
 				<i className="fas fa-graduation-cap text-primary"></i> Add
-				ducation
+				Education
 			</Link>
 		</div>
 	);
