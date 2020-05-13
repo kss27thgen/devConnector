@@ -1,0 +1,6 @@
+{
+	"mongoURI": "mongodb+srv://rena:renarena@devconnector-y7sx3.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "mysecrettoken",
+	"githubClientId": "Iv1.567cfde8588f0126",
+	"githubSecret": "28fd87a5ebe2849cc3cea2ee41dad828386c4b85"
+}
